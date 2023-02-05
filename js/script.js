@@ -56,7 +56,7 @@ buttons.forEach(button => {
             return;
         }
         
-        let playerSelection = e.target.textContent;
+        let playerSelection = button.dataset.value;
         const computerSelection = getComputerChoice();
 
         const compSelection = document.querySelector('.computer-selection');
